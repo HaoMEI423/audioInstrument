@@ -2,7 +2,7 @@
 const testButton = document.getElementById('test-button')
 
 //init our synth
-const synth = new Toue.Synth().toDestination();
+const synth = new Tone.Synth().toDestination();
 
 //do something when button was clicked
 testButton.addEventListener("click", playNote);
